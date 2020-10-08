@@ -64,9 +64,11 @@ button{
 
     }
 .container{
-    width: 25%;
-    margin:1rem;
     display: flex;
     justify-content: space-around;
     
+}
+
+img {
+    width: 25%;
 }
