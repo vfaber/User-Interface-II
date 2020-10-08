@@ -20,6 +20,53 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
-body{
-    background-color: purple;
+* {
+    background-color: rgb(104, 0, 145);
+    color: white;
+    font-size: 62.5%;
+    width: 80vw;
+    text-align: center;
+}
+
+header{
+    height:20vh;
+    border: 1px black solid;
+    margin: 0 5rem;
+    background-color: black;
+    
+
+}
+
+nav{
+    border: 1px black solid;
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+} 
+
+h1{
+    border: 1px black solid;
+    font-size: 3rem;
+    padding: 2rem;
+    width: 30%;
+    float: left;
+    background-color: black;
+}
+button{
+    background-color: rgb(222, 139, 255);
+    color: rgb(104, 0, 145);
+    border:none;
+    border-radius:1rem;
+    padding:1rem;
+    width: 5rem;
+    margin: 1%;
+    font-size: 1rem;
+
+    }
+.container{
+    width: 25%;
+    margin:1rem;
+    display: flex;
+    justify-content: space-around;
+    
 }
